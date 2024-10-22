@@ -26,6 +26,7 @@ git clone https://github.com/anishgillella/Simple-AI-Agent.git
 cd Simple-AI-Agent
 ```
 
+
 2. Install required packages:
 ```bash
 pip install torch transformers langchain
@@ -36,6 +37,7 @@ pip install torch transformers langchain
 export HUGGING_FACE_HUB_TOKEN="your_token_here"
 ```
 
+Colab notebook: https://colab.research.google.com/drive/19EVWG6nMTp55OanSNHXOMBHEo9RLKk5h#scrollTo=vTdRdhxQKC_J
 ## Usage
 
 1. Import and initialize the agent:
