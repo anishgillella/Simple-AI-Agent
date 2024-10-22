@@ -18,6 +18,7 @@ langchain
 transformers
 torch
 huggingface_hub
+langchain_community
 ```
 
 ## Installation
