@@ -33,30 +33,6 @@ A lightweight, customizable AI agent using LangChain and Hugging Face transforme
     export HUGGING_FACE_HUB_TOKEN="your_token_here"
     ```
 
-## Usage
-
-1. Import and set up:
-    ```python
-    from simple_agent import setup_model, CustomAgent
-
-    llm = setup_model()
-    ```
-
-2. Create tools and initialize the agent:
-    ```python
-    from langchain.agents import Tool, AgentExecutor
-
-    tools = [Tool(name="GetAnswer", func=get_answer), Tool(name="PerformAction", func=perform_action)]
-    agent = CustomAgent(llm=llm, tools=tools)
-    agent_executor = AgentExecutor.from_agent_and_tools(agent=agent, tools=tools)
-    ```
-
-3. Process queries:
-    ```python
-    response = agent_executor.invoke({"input": "your query here"})
-    print(response["output"])
-    ```
-
 ## Response Format
 
 ```
