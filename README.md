@@ -73,12 +73,4 @@ Use the [Colab notebook](https://colab.research.google.com/drive/19EVWG6nMTp55Oa
 
 1. Fork the repo, create a feature branch, and submit a Pull Request.
 
-## Contact
-
-Anish Gillella - [@anishgillella](https://github.com/anishgillella)
-
 Project Link: [https://github.com/anishgillella/Simple-AI-Agent](https://github.com/anishgillella/Simple-AI-Agent)
-
---- 
-
-This version maintains essential information while being more concise! Let me know if this works.
